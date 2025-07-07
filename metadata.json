@@ -1,0 +1,6 @@
+{
+  "name": "AI 플로우차트 생성기",
+  "description": "텍스트 설명으로 플로우차트를 생성하고 시각적으로 편집할 수 있는 직관적인 도구입니다. Gemini API를 사용하여 아이디어를 다이어그램으로 변환하세요.",
+  "requestFramePermissions": [],
+  "prompt": ""
+}
