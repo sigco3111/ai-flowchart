@@ -16,7 +16,7 @@ export const verifyApiKey = async (key: string): Promise<boolean> => {
         const ai = new GoogleGenAI({ apiKey: key });
         // Use a minimal request to check for authentication
         await ai.models.generateContent({
-            model: "gemini-2.5-flash-preview-04-17",
+            model: "gemini-2.5-flash",
             contents: "test",
             config: { thinkingConfig: { thinkingBudget: 0 } } // fastest possible check
         });
@@ -327,7 +327,7 @@ export const generateFlowchartFromText = async (description: string): Promise<Fl
 
     try {
         const response = await ai.models.generateContent({
-            model: "gemini-2.5-flash-preview-04-17",
+            model: "gemini-2.5-flash",
             contents: description,
             config: {
                 systemInstruction: generationSystemInstruction,
@@ -352,7 +352,7 @@ export const editFlowchartWithText = async (description: string, currentFlowchar
 
     try {
         const response = await ai.models.generateContent({
-            model: "gemini-2.5-flash-preview-04-17",
+            model: "gemini-2.5-flash",
             contents: userPrompt,
             config: {
                 systemInstruction: editSystemInstruction,
@@ -377,7 +377,7 @@ export const layoutFlowchart = async (currentFlowchart: FlowchartData): Promise<
 
     try {
         const response = await ai.models.generateContent({
-            model: "gemini-2.5-flash-preview-04-17",
+            model: "gemini-2.5-flash",
             contents: userPrompt,
             config: {
                 systemInstruction: layoutSystemInstruction,
@@ -405,7 +405,7 @@ export const analyzeFlowchart = async (currentFlowchart: FlowchartData): Promise
 
     try {
         const response = await ai.models.generateContent({
-            model: "gemini-2.5-flash-preview-04-17",
+            model: "gemini-2.5-flash",
             contents: userPrompt,
             config: {
                 systemInstruction: analysisSystemInstruction,

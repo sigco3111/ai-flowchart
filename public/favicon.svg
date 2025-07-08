@@ -1,1 +1,27 @@
- 
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- 시작 노드 -->
+  <rect x="12" y="4" width="8" height="6" rx="2" fill="#3B82F6" />
+  
+  <!-- 중간 노드 1 -->
+  <rect x="4" y="16" width="8" height="6" rx="2" fill="#3B82F6" />
+  
+  <!-- 중간 노드 2 -->
+  <rect x="20" y="16" width="8" height="6" rx="2" fill="#3B82F6" />
+  
+  <!-- 마지막 노드 -->
+  <rect x="12" y="24" width="8" height="6" rx="2" fill="#3B82F6" />
+  
+  <!-- 연결선 -->
+  <line x1="16" y1="10" x2="16" y2="14" stroke="#6B7280" stroke-width="1.5" />
+  <line x1="16" y1="14" x2="8" y2="16" stroke="#6B7280" stroke-width="1.5" />
+  <line x1="16" y1="14" x2="24" y2="16" stroke="#6B7280" stroke-width="1.5" />
+  <line x1="8" y1="22" x2="12" y2="26" stroke="#6B7280" stroke-width="1.5" />
+  <line x1="24" y1="22" x2="20" y2="26" stroke="#6B7280" stroke-width="1.5" />
+  
+  <!-- 화살표 마커 -->
+  <polygon points="8,16 6,15 6,17" fill="#6B7280" />
+  <polygon points="24,16 26,15 26,17" fill="#6B7280" />
+  <polygon points="12,26 10,24 10,28" fill="#6B7280" />
+  <polygon points="20,26 22,24 22,28" fill="#6B7280" />
+</svg> 
