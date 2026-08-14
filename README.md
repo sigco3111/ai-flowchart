@@ -3,9 +3,9 @@
 
 **AI 플로우차트 생성기**는 자연어 설명으로 순서도를 손쉽게 만들고, 시각적으로 편집하며, AI의 도움으로 다이어그램을 수정하고 분석할 수 있는 웹 기반 도구입니다. Google의 강력한 Gemini API를 활용하여 아이디어를 즉시 시각적인 플로우차트로 변환합니다.
 
-실행주소1 : https://sys8-board.vercel.app/
+실행주소1 : https://sigco3111.github.io/ai-flowchart/
 
-실행주소2 : https://dev-canvas-pi.vercel.app/
+[![Live Demo](https://img.shields.io/badge/Live_Demo-GitHub_Pages-222222?style=for-the-badge&logo=githubpages&logoColor=white)](https://sigco3111.github.io/ai-flowchart/)
 
 ## ✨ 주요 기능
 
